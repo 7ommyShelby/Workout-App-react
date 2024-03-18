@@ -9,7 +9,7 @@ const Home = () => {
 
     const [filterdata, setFilterdata] = useState([])
 
-    const [count, setCount] = useState(1325)
+    const [count, setCount] = useState(100)
 
     useEffect(() => {
         async function fetchdata() {
